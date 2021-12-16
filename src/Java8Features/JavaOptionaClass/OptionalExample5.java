@@ -19,7 +19,7 @@ public class OptionalExample5 {
         // It returns hashCode of the value
         System.out.println("Getting hashCode: "+value.hashCode());
         // It returns true if value is present, otherwise false
-        System.out.println("Is value present: "+value.isPresent());
+        System.out.println("Is value present: "+ value.isPresent());
         // It returns non-empty Optional if value is present, otherwise returns an empty Optional
         System.out.println("Nullable Optional: "+Optional.ofNullable(str[5]));
         // It returns value if available, otherwise returns specified value,
