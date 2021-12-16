@@ -1,4 +1,4 @@
-package Java8Features.LocalDateClass;
+package Java8Features.DateAndTime.LocalDateClass;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

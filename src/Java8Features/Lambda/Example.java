@@ -10,7 +10,7 @@ public class Example {
         int width = 10;
 
         //with lambda
-        Drawable d1 = ()->{
+        Drawable d1 = ()-> {
             System.out.println("Drawing " + width);
         };
         d1.draw();
