@@ -82,6 +82,14 @@ public class Pedro {
         list.add(new Goods("125123","Corned beef",24.50));
         list.add(new Goods("125789","Choco biscuit",65.25));
         Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter your username and password to login");
+        System.out.print("Username: ");
+        String username = sc.nextLine();
+        System.out.print("Password: ");
+        String password = sc.nextLine();
+        System.out.println("");
+        System.out.println("Welcome " + username + "!");
+        System.out.println();
         while (true) {
             System.out.println("--------- M E N U ----------");
             System.out.printf("%-4s%-5s%3s\n", "|", "1. View list of Items", "|");
@@ -135,7 +143,7 @@ public class Pedro {
         System.out.printf("%-6d%17s%17.2f\n", id12,name12,gpa12);
         System.out.println("-----------------------------------------");
         Scanner sc = new Scanner(System.in);
-        System.out.printf("Go back to menu? (Y/N)");
+        System.out.println("Go back to menu? (Y/N)");
         System.out.println("Choice:");
 
         while (true) {
@@ -227,6 +235,7 @@ public class Pedro {
         }
         Scanner sc = new Scanner(System.in);
         System.out.println("Exit? Enter 'Y' to exit. 'N' to go back to the Menu");
+        System.out.println("Choice: ");
 
         while (true) {
             String choice = sc.nextLine().toUpperCase();
